@@ -9,8 +9,8 @@
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
+  "type": "module",
   "repository": {
-    "type": "git",
     "url": "git+https://github.com/WelcomeToSpace/frontend-project-lvl1.git"
   },
   "author": "",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/WelcomeToSpace/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/WelcomeToSpace/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/WelcomeToSpace/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
